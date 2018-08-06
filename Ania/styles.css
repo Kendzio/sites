@@ -1,0 +1,29 @@
+/* The animation code */
+@keyframes example {
+    from {top: 0px;}
+    to {top: 500px;}
+}
+
+
+body {
+  text-align: center;
+  background-color: #efe0bd;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 50%;
+  max-width: 80%;
+  max-height: 800px;
+  border: 3px solid black;
+}
+
+p {
+  position: relative;
+  font-size: 80px;
+  top: 0px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
